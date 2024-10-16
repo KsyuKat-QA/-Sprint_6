@@ -1,6 +1,6 @@
 from selenium.webdriver.common.by import By
 
 class RootPageLocators:
-    but_cookie = [By.ID, "rcc-confirm-button"]
-    questions_block = [By.CLASS_NAME, "accordion__button"]
-    ans_block = [By.CLASS_NAME, "accordion__panel"]
+    BUT_COOKIE = [By.ID, "rcc-confirm-button"]
+    QUESTIONS_BLOCK = [By.CLASS_NAME, "accordion__button"]
+    ANS_BLOCK = [By.CLASS_NAME, "accordion__panel"]

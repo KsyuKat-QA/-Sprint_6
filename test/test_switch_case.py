@@ -10,7 +10,7 @@ import allure
 def test_logo_samokat(browser):
     testing_page = SwitchPage(browser)
     testing_page.go_to_site()
-    assert testing_page.samokat_logo_click(SwitchPageLocators.samokat_logo, ROOT_URL)
+    assert testing_page.samokat_logo_click(SwitchPageLocators.SAMOKAT_LOGO, ROOT_URL)
 
 @allure.title('Лого Дзена')
 @allure.description('Проверяем переход по клику через логотип Дзена')
@@ -18,4 +18,4 @@ def test_logo_samokat(browser):
 def test_logo_dzen(browser):
     testing_page = SwitchPage(browser)
     testing_page.go_to_site()
-    assert testing_page.main_logo_click(SwitchPageLocators.main_logo, DZEN_URL)
+    assert testing_page.main_logo_click(SwitchPageLocators.MAIN_LOGO, DZEN_URL)
